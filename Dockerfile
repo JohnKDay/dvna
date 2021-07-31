@@ -1,7 +1,7 @@
 # Damn Vulnerable NodeJS Application
 # docker run --name dvna -p 9090:9090 -d appsecco/dvna:sqlite
 
-FROM node:carbon-slim
+FROM node:8-buster
 LABEL MAINTAINER "Appsecco Ops"
 
 WORKDIR /opt
