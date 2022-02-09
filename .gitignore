@@ -5,3 +5,4 @@ vars.env
 package-lock.json
 .dev/
 db.sqlite
+.dccache
