@@ -17,6 +17,8 @@ COPY . .
 RUN apt-get update && \
     apt-get install -y iputils-ping
 
+RUN apt-get update -y
+
 RUN npm install -g nodemon
 
 ENV NODE_PATH=/opt/node_modules
