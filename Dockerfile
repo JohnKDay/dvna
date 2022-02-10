@@ -17,7 +17,7 @@ COPY . .
 RUN apt-get update && \
     apt-get install -y iputils-ping
 
-RUN apt-get update -y
+RUN apt-get upgrade -y
 
 RUN npm install -g nodemon
 
